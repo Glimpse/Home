@@ -26,7 +26,9 @@ That allows you to install Glimpse packages without specifying the registry:
 > npm install @glimpse/glimpse-node-server --save
 ```
 
-> If your Node.js application is hosted in the Cloud, create a `.npmrc` file to store the NPM feed in the root project folder.
+### Cloud Hosting 
+
+If your Node.js application is hosted in the Cloud, create a `.npmrc` file to store the NPM feed in the root project folder.
 
 `.npmrc`:
 
@@ -50,9 +52,9 @@ glimpseAgent.agent.init({
 });
 ```
 
-> If your application uses Express, make sure to add `require('http')` below Glimpse initialization.  This is a temporary workaround for a Glimpse initialization issue.
-
 > If you use ES6 `import` via a trans-piler such as Babel, understand that it can reorder the generated `require()` statements. In that case, initialize Glimpse via an alternative application entrypoint as shown below.
+
+### Sample Configuration
 
 `app.js`:
 
