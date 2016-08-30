@@ -1,6 +1,6 @@
 # Glimpse Preview
 
-## Install Instructions
+## Installation Instructions
 
 The easiest way to install Glimpse within an application is to configure NPM to use our private feed for @glimpse-scoped packages:
 
@@ -30,3 +30,7 @@ var glimpseAgent = require('@glimpse/glimpse-node-agent'),
 The Glimpse client can be accessed (when the application is running, assuming on port 3000) at: http://localhost:3000/glimpse/client
 
 When prompted for the metadata endpoint, just accept the default.
+
+## Issue Reporting
+
+If you run into any problems, please open a new issue in this repo. A member of the team will follow up with you ASAP.
