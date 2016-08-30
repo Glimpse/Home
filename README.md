@@ -1,30 +1,85 @@
 # Glimpse Preview
 
+Thanks for checking out the Glimpse preview! By downloading this software, you agree to the license agreement.
+
 ## Node.js Installation Instructions
 
-The easiest way to install Glimpse within an application is to configure NPM to use our private feed for @glimpse-scoped packages:
+Glimpse releases are available via our custom NPM feed: [https://www.myget.org/F/g-beta/npm/](https://www.myget.org/F/g-beta/npm/)
 
-```
-npm config set @glimpse:registry=https://www.myget.org/F/g-beta/npm/
-```
-
-Then, you can install glimpse:
-
-```
-npm install @glimpse/glimpse-node-agent --save
-npm install @glimpse/glimpse-node-server --save
+Install the Glimpse agent and server packages:
+ 
+```bash
+> npm install --registry=https://www.myget.org/F/g-beta/npm/ @glimpse/glimpse-node-agent --save
+> npm install --registry=https://www.myget.org/F/g-beta/npm/ @glimpse/glimpse-node-server --save
 ```
 
-Next up is the initialization of Glimpse in your application. Make sure Glimpse is initialized before any other packages are imported/required.
+You can also configure NPM to use the feed (only) for @glimpse-scoped packages:
+
+```bash 
+> npm config set @glimpse:registry=https://www.myget.org/F/g-beta/npm/
+```
+ 
+That allows you to install Glimpse packages without specifying the registry:
+ 
+```bash
+> npm install @glimpse/glimpse-node-agent --save
+> npm install @glimpse/glimpse-node-server --save
+```
+
+> If your Node.js application is hosted in the Cloud, create a `.npmrc` file to store the NPM feed in the root project folder.
+
+`.npmrc`:
+
+```text
+@glimpse:registry=https://www.myget.org/F/g-beta/npm/
+```
+
+Then you can add `@glimpse/glimpse-node-agent` and `@glimpse/glimpse-node-server` as project dependencies in `package.json` and they will be installed as part of `npm install`. 
+
+## Node.js Configuration Instructions
+
+Make sure Glimpse is initialized **before** any other `require()` or application logic.  (Glimpse will actually detect and warn you in that case.)
+
+```javascript 
+var glimpseAgent = require('@glimpse/glimpse-node-agent'),
+    glimpseServer = require('@glimpse/glimpse-node-server');
+ 
+glimpseServer.server.init();
+glimpseAgent.agent.init({
+    server: glimpseServer.server
+});
+```
+
+> If your application uses Express, make sure to add `require('http')` below Glimpse initialization.  This is a temporary workaround for a Glimpse initialization issue.
+
+> If you use ES6 `import` via a trans-piler such as Babel, understand that it can reorder the generated `require()` statements. In that case, initialize Glimpse via an alternative application entrypoint as shown below.
+
+`app.js`:
 
 ```javascript
-var glimpseAgent = require('@glimpse/glimpse-node-agent'),
-    glimpseServer = require('@glimpse/glimpse-node-server')
+/*
+ * Existing application logic.
+ */
+```
 
-    glimpseServer.server.init()
-    glimpseAgent.agent.init({
-        server: glimpseServer.server
-    })
+`glimpse.js`:
+
+```javascript 
+var glimpseAgent = require('@glimpse/glimpse-node-agent'),
+    glimpseServer = require('@glimpse/glimpse-node-server');
+ 
+glimpseServer.server.init();
+glimpseAgent.agent.init({
+    server: glimpseServer.server
+});
+
+require('./app');
+```
+
+You can then run your application with Glimpse using the new entrypoint:
+
+```bash
+> node ./glimpse.js
 ```
 
 The Glimpse client can be accessed (when the application is running, assuming on port 3000) at: http://localhost:3000/glimpse/client
