@@ -1,6 +1,6 @@
 # Glimpse Preview
 
-## Installation Instructions
+## Node.js Installation Instructions
 
 The easiest way to install Glimpse within an application is to configure NPM to use our private feed for @glimpse-scoped packages:
 
