@@ -5,3 +5,5 @@ We're going to do everything we can to make it right, but to be most helpful, we
 - Either the steps to reproduce the issue, or a link to project which highlights the issue.
 - The version of Node or .NET that you are running.
 - Any pertinent error information you can give, including error message, stack trace, etc.
+
+Please delete this boilerplate text before you hit the "Submit New Issue" button.
