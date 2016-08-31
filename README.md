@@ -6,14 +6,7 @@ Thanks for checking out the Glimpse preview! By downloading this software, you a
 
 Glimpse releases are available via our custom NPM feed: [https://www.myget.org/F/g-beta/npm/](https://www.myget.org/F/g-beta/npm/)
 
-Install the Glimpse agent and server packages:
- 
-```bash
-> npm install --registry=https://www.myget.org/F/g-beta/npm/ @glimpse/glimpse-node-agent --save
-> npm install --registry=https://www.myget.org/F/g-beta/npm/ @glimpse/glimpse-node-server --save
-```
-
-You can also configure NPM to use the feed (only) for @glimpse-scoped packages:
+Install the Glimpse agent and server packages by configuring NPM to use the feed (only) for @glimpse-scoped packages:
 
 ```bash 
 > npm config set @glimpse:registry=https://www.myget.org/F/g-beta/npm/
