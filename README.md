@@ -81,6 +81,15 @@ Once setup, next time you run your application, Glimpse will inject a small widg
 
 Alternatively, the Glimpse Client can be accessed (when the application is running, assuming on port 3000) at - http://localhost:3000/glimpse/client. If you access this resource directly, when prompted for the metadata endpoint, just accept the default.
 
+## Package & Version Support
+
+Glimpse for Node currently supports the following:
+- Node Version 4 and above.
+- [MongoDb Driver](https://www.npmjs.com/package/mongodb) Version 2.0.14 and above.
+- [Express.js](https://www.npmjs.com/package/express) Version 4 and above.
+- The native `HTTP` module.
+- The native `console` module.
+
 ## Issue Reporting
 
 If you run into any problems, please open a new issue in this repo. A member of the team will follow up with you ASAP.
