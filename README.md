@@ -15,8 +15,7 @@ Install the Glimpse agent and server packages by configuring NPM to use the feed
 That allows you to install Glimpse packages without specifying the registry:
  
 ```bash
-> npm install @glimpse/glimpse-node-agent --save
-> npm install @glimpse/glimpse-node-server --save
+> npm install @glimpse/glimpse-node --save
 ```
 
 ### Cloud Hosting 
@@ -29,20 +28,16 @@ If your Node.js application is hosted in the Cloud, create a `.npmrc` file to st
 @glimpse:registry=https://www.myget.org/F/g-beta/npm/
 ```
 
-Then you can add `@glimpse/glimpse-node-agent` and `@glimpse/glimpse-node-server` as project dependencies in `package.json` and they will be installed as part of `npm install`. 
+Then you can add `@glimpse/glimpse-node` as a project dependency in `package.json` and they will be installed as part of `npm install`. 
 
 ## Node.js Configuration Instructions
 
 Make sure Glimpse is initialized **before** any other `require()` or application logic.  (Glimpse will actually detect and warn you in that case.)
 
 ```javascript 
-var glimpseAgent = require('@glimpse/glimpse-node-agent'),
-    glimpseServer = require('@glimpse/glimpse-node-server');
- 
-glimpseServer.server.init();
-glimpseAgent.agent.init({
-    server: glimpseServer.server
-});
+var glimpse = require('@glimpse/glimpse-node');
+
+glimpse.init();
 ```
 
 > If you use ES6 `import` via a trans-piler such as Babel, understand that it can reorder the generated `require()` statements. In that case, initialize Glimpse via an alternative application entrypoint as shown below.
@@ -60,13 +55,9 @@ glimpseAgent.agent.init({
 `glimpse.js`:
 
 ```javascript 
-var glimpseAgent = require('@glimpse/glimpse-node-agent'),
-    glimpseServer = require('@glimpse/glimpse-node-server');
- 
-glimpseServer.server.init();
-glimpseAgent.agent.init({
-    server: glimpseServer.server
-});
+var glimpse = require('@glimpse/glimpse-node');
+
+glimpse.init();
 
 require('./app');
 ```
@@ -85,14 +76,19 @@ Alternatively, the Glimpse Client can be accessed (when the application is runni
 
 Glimpse for Node currently supports the following:
 - Node Version 4 and above.
-- [MongoDb Driver](https://www.npmjs.com/package/mongodb) Version 2.0.14 and above.
+- [MongoDb Driver](https://www.npmjs.com/package/mongodb) Version 2.1.x.
 - [Express.js](https://www.npmjs.com/package/express) Version 4 and above.
-- The native `HTTP` module.
+- The native `http` module.
 - The native `console` module.
 
 ## Issue Reporting
 
 If you run into any problems, please open a new issue in this repo. A member of the team will follow up with you ASAP.
+
+
+## Known Issues
+
+ - You may see the console warning `Glimpse (1003): The package '@glimpse/glimpse-node-common' was imported before Glimpse was initialized.  Glimpse may not capture data related to that package.`  This warning can be ignored.
 
 ---
 
