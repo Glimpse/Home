@@ -75,11 +75,13 @@ Alternatively, the Glimpse Client can be accessed (when the application is runni
 ## Package & Version Support
 
 Glimpse for Node currently supports the following:
-- Node Version 4 and above.
-- [MongoDb Driver](https://www.npmjs.com/package/mongodb) Version 2.1.x.
-- [Express.js](https://www.npmjs.com/package/express) Version 4 and above.
+- Node Version 4.0 to 6.6.
+- [MongoDb Driver](https://www.npmjs.com/package/mongodb) Version 2.0.14 to 2.2.x.
+- [Express.js](https://www.npmjs.com/package/express) Version 4.0 to 4.14.
 - The native `http` module.
 - The native `console` module.
+
+For further support targets, please open an issue with your requested module and version.
 
 ## Issue Reporting
 
