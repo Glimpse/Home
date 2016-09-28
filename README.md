@@ -68,7 +68,7 @@ You can then run your application with Glimpse using the new entrypoint:
 > node ./glimpse.js
 ```
 
-Once setup, next time you run your application, Glimpse will inject a small widget (HUD - the Heads-Up-Display) into the bottom right hand corner of your page. HUD is intended to give you a 10,000ft view of your application and give you ongoing feedback around its workign. From here, you can click on the Glimpse logo to view full Glimpse Client. 
+Once setup, next time you run your application, Glimpse will inject a small widget (HUD - the Heads-Up-Display) into the bottom right hand corner of your page. HUD is intended to give you a 10,000ft view of your application and give you ongoing feedback around its working. From here, you can click on the Glimpse logo to view full Glimpse Client. 
 
 Alternatively, the Glimpse Client can be accessed (when the application is running, assuming on port 3000) at - http://localhost:3000/glimpse/client. If you access this resource directly, when prompted for the metadata endpoint, just accept the default.
 
