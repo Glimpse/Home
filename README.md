@@ -72,6 +72,25 @@ Once setup, next time you run your application, Glimpse will inject a small widg
 
 Alternatively, the Glimpse Client can be accessed (when the application is running, assuming on port 3000) at - http://localhost:3000/glimpse/client. If you access this resource directly, when prompted for the metadata endpoint, just accept the default.
 
+### Adding Script Tag for Static HTML Content
+
+If you have static HTML content, you can enable Glimpse on your HTML page by adding the following script tag:
+```
+    <head>
+        <script src="/glimpse/hud/main.js?hash={hash}" 
+            id="__glimpse_hud" 
+            data-client-template="/glimpse/client/?baseUrl=/glimpse/client&amp;hash={hash}{&amp;requestId,follow,metadataUri}" 
+            data-context-template="/glimpse/context/?contextId={contextId}{&amp;types}" 
+            data-metadata-template="/glimpse/metadata/?hash={hash}">
+        </script>
+
+        <script src="/glimpse/agent/agent.js?hash={hash}"
+            id="__glimpse_browser_agent"
+            data-message-ingress-template="/glimpse/message-ingress/">
+        </script>
+    </head>
+```
+
 ## Package & Version Support
 
 Glimpse for Node currently supports the following:
