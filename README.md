@@ -79,8 +79,8 @@ If you have static HTML content, you can enable Glimpse on your HTML page by add
     <head>
         <script src="/glimpse/hud/main.js?hash={hash}" 
             id="__glimpse_hud" 
-            data-client-template="/glimpse/client/?baseUrl=/glimpse/client&amp;hash={hash}{&amp;requestId,follow,metadataUri}" 
-            data-context-template="/glimpse/context/?contextId={contextId}{&amp;types}" 
+            data-client-template="/glimpse/client/?baseUrl=/glimpse/client&hash={hash}{&requestId,follow,metadataUri}" 
+            data-context-template="/glimpse/context/?contextId={contextId}{&types}" 
             data-metadata-template="/glimpse/metadata/?hash={hash}">
         </script>
 
