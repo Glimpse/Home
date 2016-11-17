@@ -2,6 +2,12 @@
 
 Thanks for checking out the Glimpse preview! By downloading this software, you agree to the license agreement.
 
+## Latest News
+
+Nov 17, 2016 - We've released version 0.14.1! This is the biggest release of Glimpse for Node yet. Find out more in our [annoucement issue](https://github.com/Glimpse/Home/issues/75).
+
+---
+
 ## Node.js Installation Instructions
 
 Glimpse releases are available via our custom NPM feed: [https://www.myget.org/F/g-beta/npm/](https://www.myget.org/F/g-beta/npm/)
