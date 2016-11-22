@@ -4,7 +4,8 @@ Thanks for checking out the Glimpse preview! By downloading this software, you a
 
 ## Latest News
 
-Nov 17, 2016 - We've released version 0.14.1! This is the biggest release of Glimpse for Node yet. Find out more in our [annoucement issue](https://github.com/Glimpse/Home/issues/75).
+- Nov 22, 2016 - We've released 0.15.2, a minor update to last week's release. See our [annoucement post](https://github.com/Glimpse/Home/issues/82) for more info.
+- Nov 17, 2016 - We've released version 0.14.1! This is the biggest release of Glimpse for Node yet. Find out more in our [annoucement issue](https://github.com/Glimpse/Home/issues/75).
 
 ---
 
