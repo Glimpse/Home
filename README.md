@@ -4,6 +4,7 @@ Thanks for checking out the Glimpse preview! By downloading this software, you a
 
 ## Latest News
 
+- Jan 6, 2017 - Happy New Year, we've released 0.16.4!  Find out more in our [announcement post](https://github.com/Glimpse/Home/issues/85).
 - Nov 22, 2016 - We've released 0.15.2, a minor update to last week's release. See our [annoucement post](https://github.com/Glimpse/Home/issues/82) for more info.
 - Nov 17, 2016 - We've released version 0.14.1! This is the biggest release of Glimpse for Node yet. Find out more in our [annoucement issue](https://github.com/Glimpse/Home/issues/75).
 
@@ -101,7 +102,7 @@ If you have static HTML content, you can enable Glimpse on your HTML page by add
 ## Package & Version Support
 
 Glimpse for Node currently supports the following:
-- Node Version 4.0 to 6.6.
+- Node Version 4.0 to 7.4.
 - [MongoDb Driver](https://www.npmjs.com/package/mongodb) Version 2.0.14 to 2.2.x.
 - [Express.js](https://www.npmjs.com/package/express) Version 4.0 to 4.14.
 - The native `http` module.
