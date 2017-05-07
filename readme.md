@@ -4,7 +4,7 @@ Glimpse is an **[npm package](https://www.npmjs.com/package/@glimpse/glimpse)** 
 
 Full details and documentation available at [https://node.getglimpse.com](https://node.getglimpse.com).
 
-## Latest News
+## [Latest news](https://github.com/glimpse/Home/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3AAnnouncement%20)
 
 - Mar 21, 2017 - It's all about services in 0.18.9. Find the details in our [announcement post](https://github.com/Glimpse/Home/issues/93).
 - Feb 7, 2017 - Turn up the signal with 0.17.5. Read all about it in our [announcement post](https://github.com/Glimpse/Home/issues/86).
@@ -30,7 +30,7 @@ Full details and documentation available at [https://node.getglimpse.com](https:
 
 For more help, [check out the detailed steps and more ways to get started](https://node.getglimpse.com/docs/setup/getting-started/).
 
-## Package & Version Support
+## Package & version support
 
 Project Glimpse: Node Edition currently supports the following:
 - Node Version 4.0 to 7.10.
@@ -40,7 +40,7 @@ Project Glimpse: Node Edition currently supports the following:
 
 For further support targets, please open an issue with your requested module and version.
 
-## Issue Reporting
+## Issue reporting
 
 If you run into any problems, please open a [new issue](https://github.com/aspnet/home/issues/new) in this repo. A member of the team will follow up with you ASAP.
 
