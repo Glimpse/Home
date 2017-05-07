@@ -1,4 +1,4 @@
-:clap: Thank you for taking the time to report your feedback! :clap:
+Thank you for taking the time to report your feedback!
 
 We're going to do everything we can to assist you. If you are reporting a bug or issue, we can be the most helpful, if you to include the following information in your report:
 
