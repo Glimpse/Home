@@ -33,8 +33,8 @@ For more help, [check out the detailed steps and more ways to get started](https
 ## Package & version support
 
 Project Glimpse: Node Edition currently supports the following:
-- Node Version 4.0 to 7.10.
-- [Express.js](https://www.npmjs.com/package/express) Version 4.0 to 4.15.
+- Node.js version 4.0 to 7.10.
+- [Express.js](https://www.npmjs.com/package/express) version 4.0 to 4.15.
 - The native `http` module.
 - The native `console` module.
 
