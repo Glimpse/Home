@@ -2,7 +2,7 @@
 
 Glimpse is an **[npm package](https://www.npmjs.com/package/@glimpse/glimpse)** that gives you in-depth insights about the **client and server sides** of your **Node.js** apps. More **efficient debugging** means **faster development**. Best of all, it’s free.
 
-Full details and documentation available at [https://node.getglimpse.com](https://node.getglimpse.com).
+Full details and documentation available at [http://node.getglimpse.com](http://node.getglimpse.com).
 
 ## [Latest news](https://github.com/glimpse/Home/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3AAnnouncement%20)
 
@@ -28,7 +28,7 @@ Full details and documentation available at [https://node.getglimpse.com](https:
   ```
   3. Open your app in a browser. The Glimpse HUD should now be at the bottom right of your app.
 
-For more help, [check out the detailed steps and more ways to get started](https://node.getglimpse.com/docs/setup/getting-started/).
+For more help, [check out the detailed steps and more ways to get started](http://node.getglimpse.com/docs/setup/getting-started/).
 
 ## Package & version support
 
