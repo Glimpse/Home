@@ -1,3 +1,5 @@
+[![npm (scoped)](https://img.shields.io/npm/v/@glimpse/glimpse.svg)](https://www.npmjs.com/package/@glimpse/glimpse)
+
 # Project Glimpse: Node Edition
 
 Glimpse is an experimental **[npm package](https://www.npmjs.com/package/@glimpse/glimpse)** that gives you in-depth insights about the **client and server sides** of your **Node.js** apps. More **efficient debugging** means **faster development**. Best of all, it’s free.
