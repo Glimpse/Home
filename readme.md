@@ -1,4 +1,5 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@glimpse/glimpse.svg)](https://www.npmjs.com/package/@glimpse/glimpse)
+[![npm (@glimpse/glimpse)](https://img.shields.io/npm/v/@glimpse/glimpse.svg)](https://www.npmjs.com/package/@glimpse/glimpse)
+[![#ProjectGlimpse](https://img.shields.io/badge/tweet-%23ProjectGlimpse-blue.svg)](https://twitter.com/intent/tweet?hashtags=projectGlimpse&tw_p=tweetbutton)
 
 # Project Glimpse: Node Edition
 
