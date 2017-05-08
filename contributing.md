@@ -6,7 +6,7 @@ Having issues?
 
 If you're having issues, please check out our [documentation](http://node.getglimpse.com/docs/) and [troubleshooting guide](http://node.getglimpse.com/docs/support/troubleshooting/).
 
-If the guide is unable to help you with your issue, feel free to [open an issue](https://github.com/glimpse/Home/issues/new).
+If they are unable to help you with your issue, feel free to [open an issue](https://github.com/glimpse/Home/issues/new).
 
 Got feedback?
 -------------
