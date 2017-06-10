@@ -3,6 +3,8 @@
 
 # Project Glimpse: Node Edition
 
+[![Join the chat at https://gitter.im/GlimpseHome/Lobby](https://badges.gitter.im/GlimpseHome/Lobby.svg)](https://gitter.im/GlimpseHome/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Glimpse is an experimental **[npm package](https://www.npmjs.com/package/@glimpse/glimpse)** that gives you in-depth insights about the **client and server sides** of your **Node.js** apps. More **efficient debugging** means **faster development**. Best of all, it’s free.
 
 ![Project Glimpse: Node Edition Screenshot](http://node.getglimpse.com/img/front-page/hero1.7848ce21.svg)
