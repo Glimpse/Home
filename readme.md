@@ -38,14 +38,7 @@ Full details and documentation available at [http://node.getglimpse.com](http://
 For more help, [check out the detailed steps and more ways to get started](http://node.getglimpse.com/docs/setup/getting-started/).
 
 ## Package & version support
-
-Project Glimpse: Node Edition currently supports the following:
-- Node.js version 4.0 to 7.10.
-- [Express.js](https://www.npmjs.com/package/express) version 4.0 to 4.15.
-- The native `http` module.
-- The native `console` module.
-
-For further support targets, please open an issue with your requested module and version.
+See [here](http://node.getglimpse.com/docs/support/faq/#what-versions-and-modules-are-supported) for details on supported node runtimes and modules.
 
 ## Issue reporting
 
