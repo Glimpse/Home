@@ -7,7 +7,7 @@
 
 Glimpse is an experimental **[npm package](https://www.npmjs.com/package/@glimpse/glimpse)** that gives you in-depth insights about the **client and server sides** of your **Node.js** apps. More **efficient debugging** means **faster development**. Best of all, it’s free.
 
-![Project Glimpse: Node Edition Screenshot](http://node.getglimpse.com/img/front-page/hero1.7848ce21.svg)
+![Project Glimpse: Node Edition Screenshot](/hero1.svg)
 
 Full details and documentation available at [http://node.getglimpse.com](http://node.getglimpse.com).
 
