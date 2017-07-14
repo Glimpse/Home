@@ -38,7 +38,7 @@ Full details and documentation available at [http://node.getglimpse.com](http://
 For more help, [check out the detailed steps and more ways to get started](http://node.getglimpse.com/docs/setup/getting-started/).
 
 ## Package & version support
-See [here](http://node.getglimpse.com/docs/support/faq/#what-versions-and-modules-are-supported) for details on supported node runtimes and modules.
+See [here](http://node.getglimpse.com/docs/support/faq/#which-versions-and-modules-are-supported) for details on supported node runtimes and modules.
 
 ## Issue reporting
 
