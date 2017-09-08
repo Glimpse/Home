@@ -42,7 +42,7 @@ See [here](http://node.getglimpse.com/docs/support/faq/#which-versions-and-modul
 
 ## Issue reporting
 
-If you run into any problems, please open a [new issue](https://github.com/aspnet/home/issues/new) in this repo. A member of the team will follow up with you ASAP.
+If you run into any problems, please open a [new issue](https://github.com/Glimpse/Home/issues/new) in this repo. A member of the team will follow up with you ASAP.
 
 ---
 
